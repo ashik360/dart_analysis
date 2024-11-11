@@ -10,26 +10,6 @@ Sample Output:
 [1, 3, 5]
  */
 
-/*
-import 'dart:io';
-
-void main(){
-  String input = stdin.readLineSync()!;
-  int? result = int.tryParse(input);
-  List<int> filterNumbers(result, check);
-}
-
-List <int> filterNumbers (int result, String check){
-  if(result/2 == 0){
-    check = "even";
-  }
-  else{
-    check = "odd";
-  }
-}
-*/
-
-
 import 'dart:io';
 
 void main() {
